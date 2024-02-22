@@ -1,0 +1,139 @@
+.main{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    text-align: center;
+    font-family: cursive;
+   
+    justify-content:space-between;
+    align-content:center;
+    flex-grow:2;
+    flex-shrink: 0.5;
+    margin: 2px;
+
+    
+}
+.child1{
+    background:red;
+    padding:10px;
+    font-size: 20px;
+    color:white;
+    height:200px;
+    width:200px;
+    flex-basis:150px;
+    border:2px solid black;
+}
+.child2{
+    background:aqua;
+    padding:10px;
+    font-size: 20px;
+    color:white;
+    height:200px;
+    width:200px;
+    flex-basis: 150px;
+    border:2px solid black;
+}
+.child3{
+    background:azure;
+    padding:10px;
+    font-size: 20px;
+    color:blue;
+    height:200px;
+    width:200px;
+    flex-basis: 150px;
+    border:2px solid black;
+}
+body{ 
+    background-color: bisque;
+    margin:20px;
+    height:50%;
+    background-image: url(img/2023-04-09.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+.title{
+    color:darkblue;
+    font-size: 35px;
+    text-shadow: 5px 5px 10px;
+    font-family:sans-serif;
+    text-align: center;
+    background-color: darkgrey;
+    /* border:1px solid whitesmoke; */
+    text-align: center;
+}
+.child1 a{
+    color:yellow;
+    display: inline-block;
+    text-decoration: none;
+}
+.child2 a{
+    color:rgb(190, 120, 67);
+    text-decoration: dotted;
+}
+.child3 a{
+    color:rgb(43, 226, 70);
+    text-decoration: dotted;
+}
+.child4{
+    background:brown;
+    padding:10px;
+    height: 200px;
+    width:200px;
+    flex-basis: 150px;
+    color:aliceblue;
+    border:2px solid black;
+}
+.child5{
+    background-color:deeppink ;
+    height:200px;
+    width:200px;
+    padding:10px;
+    flex-basis: 150px;
+    color:bisque;
+    border:2px solid black;
+}
+.child6{
+    background-color:chartreuse ;
+    height:200px;
+    width:200px;
+    flex-basis:150px;
+    padding:10px;
+    border:2px solid black;
+}
+.thank{
+    color:rgb(65, 8, 65);
+    background-color: darkgrey;
+    font-size: 30px;
+    text-shadow: 5px 5px 10px;
+    font-family:sans-serif;
+    text-align: center;
+    width:100%;
+    height: 100px;
+    flex-basis: 20px;
+    
+}
+.child4 a{
+    text-decoration: none;
+}
+.child5 a{
+    text-decoration: none;
+}
+.child6 a{
+        text-decoration: none
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container img{
+    height: 300px;
+    width:350px;
+    margin: 2px;
+    flex-basis: 200px;
+    border:5px solid black;
+
+}
